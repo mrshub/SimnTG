@@ -1,6 +1,6 @@
-# SimtNG
+# SimnTG
 
-This is the repository for the MRSHub submission "SimtNG package" (submitted by [Ronald Ouwerkerk, NIDDK/NIH, Bethesda MD, USA](ouwerkerkr@niddk.nih.gov)).
+This is the repository for the MRSHub submission "SimnTG package" (submitted by [Ronald Ouwerkerk, NIDDK/NIH, Bethesda MD, USA](ouwerkerkr@niddk.nih.gov)).
 
 ## Guidance
 
