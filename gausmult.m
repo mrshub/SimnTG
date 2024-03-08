@@ -32,16 +32,16 @@ tstep = 1/SW;
 % Substittute the desired line width lw for k
 % ( lw/2 )^2 = -a*ln(2)/pi^2
 % Now a = ( lw/2 pi )^2 /ln(2)
-widthsq = (piwidth/2)^2/log(2);
-time = (tbegin+(0:m-1)’*tstep);
+widthsq = (pi*width/2)^2/log(2);
+time = (tbegin+(0:m-1)*tstep);
 
 if n ==1
 timesq = time.^2;
-gsdata = data.exp(-timesqwidthsq);
+gsdata = data.*exp(-timesq.*widthsq);
 else
 time = time( :, ones(1,n) );
 timesq = time.^2;
-gsdata = data.exp(-timesqwidthsq);
+gsdata = data.*exp(-timesq.*widthsq);
 end
 
 end
